@@ -1,0 +1,62 @@
+.texto h1{
+    color: rgb(228, 225, 225);
+    -webkit-text-stroke: .5vh;
+    font-size: 10vw;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-image: url(imagens/space-tylercreatesworlds-universe-wallpaper-preview.jpg);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: text 25s ease alternate infinite;
+    background-size: 250%;
+}
+@keyframes text{
+    from{
+        background-position: 0% 50%;
+    }
+    to{
+        background-position: 100% 50%;
+    }
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    height: 100vh;
+}
+
+.btn{
+    width: 250px;
+    height: 60px;
+    font-size: 30pt;
+    border: none;
+    border-radius: 1000px;
+    color: rgb(240, 240, 240);
+    background-image: -webkit-linear-gradient(45deg, rgb(61, 61, 61) 0%, rgb(2, 211, 166) 12%, rgb(1, 153, 140) 20%, rgb(3, 121, 95)45%, rgb(0, 31, 24) 80%);
+    background-position: 100%;
+    background-size: 300%;
+    -webkit-transition: 500ms ease-in-out;
+    transition: 500ms ease-in-out;
+}
+.btn:hover{
+    color: rgb(24, 24, 24);
+    background-position: 0;
+    cursor: pointer;
+}
+
+#botao{
+    text-align: center;
+    padding: 20%;
+    border: 10px solid;
+    background: linear-gradient(#e6e6e6 5% , #858585 20%, #575757 30%, #424242 40%, black 80%);
+    border-color: rgb(240, 240, 240);
+    border-radius: 150px;
+    margin: 6%;
+}
+body{
+    background: linear-gradient(black, rgb(2, 138, 104));
+}
